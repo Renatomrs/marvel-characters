@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+  background: #F33;
+}
+
+header div {
+  width: 90%;
+  max-width: 1200px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+header div .logo {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #FFF;
+}
+
+header div nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div nav button {
+  height: 32px;
+
+  padding: 0 1.2em;
+
+  background: #F33;
+}
+
+header div nav button svg {
+  width: 16px;
+
+  fill: #FFF;
+}
+
+header div nav button span {
+  margin-left: 9px;
+
+  font-weight: bold;
+
+  color: #FFF;
+}

@@ -1,0 +1,69 @@
+.card {
+  width: 100%;
+  max-width: 360px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 23px;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 #AAA;
+  background-color: #FFF;
+}
+
+.cardImg {
+  width: 100%;
+  max-width: 100%;
+  height: 350px;
+
+  object-fit: fill;
+}
+
+.card div {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.card div div {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 23px 0 14px 0;
+}
+
+.card div div span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card button {
+  width: 100%;
+  height: 40px;
+
+  font-size: 14px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 18px;
+
+  border: 1px solid #CCC;
+  border-radius: 5px;
+
+  background-color: #FFF;
+  color: #222; 
+}
+
+.card button svg {
+  width: 9px;
+}
